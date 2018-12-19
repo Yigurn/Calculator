@@ -9,7 +9,4 @@ public class Multiplication {
 		public int getResult() {
 			return result;
 		}
-
-
-
 }

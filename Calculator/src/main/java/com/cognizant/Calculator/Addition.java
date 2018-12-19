@@ -12,5 +12,5 @@ public class Addition {
 	{
 		return value;
 	}
-			
+	
 }
