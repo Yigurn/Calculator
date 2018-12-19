@@ -7,4 +7,8 @@ public class Calculator {
 
 	}
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> Add files via upload
