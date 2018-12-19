@@ -6,7 +6,8 @@ public class Calculator {
 	Scanner scan;
 
 	public static void main(String[] args) {
-		Calulator calc = new Calculator();
+		Calculator calc = new Calculator();
+		calc.runCalc();
 	}
 
 	public String scan()
@@ -29,7 +30,7 @@ public class Calculator {
 		switch(operation) {
 		case '+':
 			Addition add = new Addition(int1, int2);
-			System.out.println(add);
+			System.out.println(add.getResult());
 			break;
 		case '-':
 			Subtraction sub = new Subtraction();
@@ -37,11 +38,12 @@ public class Calculator {
 			break;
 		case '/':
 			Division div = new Division(int1, int2);
-			System.out.println(div);
+			System.out.println(div.getResult());
 			break;
 		case '*':
 			Multiplication mul = new Multiplication();
-			System.out.println(mul.multiply(int1, int2));
+			mul.multiply(int1, int2);
+			System.out.println(mul.getResult());
 			break;
 		
 		}
